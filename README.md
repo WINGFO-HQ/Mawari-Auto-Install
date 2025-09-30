@@ -1,5 +1,5 @@
 # Mawari Guardian Node Launcher (Docker)
-**Created by [Kalawastra](https://t.me/Kalawastra)**
+**Only for OG / Navigator [on Discord](https://discord.gg/uRRbARYt)**, **Created by [Kalawastra](https://t.me/Kalawastra)**
 
 Script ini memudahkan Anda untuk menjalankan, mengelola, dan melakukan backup Guardian Node Mawari menggunakan Docker.
 
