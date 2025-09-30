@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# ==========================================
+#  Mawari Guardian Node Launcher (Docker)
+#  Created by Kalawastra
+#  Telegram: https://t.me/Kalawastra
+#  Channel: https://t.me/infomindao
+# ==========================================
+
 MNTESTNET_IMAGE="us-east4-docker.pkg.dev/mawarinetwork-dev/mwr-net-d-car-uses4-public-docker-registry-e62e/mawari-node:latest"
 MAWARI_CONTAINER_PREFIX="mawari-gn-" 
 
@@ -14,6 +21,9 @@ show_header() {
     clear
     echo -e "${BLUE}======================================================"
     echo -e "      Mawari Guardian Node Launcher (Docker)          "
+    echo -e "${RED}              Created by ${GREEN}Kalawastra${NC}"
+    echo -e "${YELLOW}        Telegram: https://t.me/Kalawastra${NC}"
+    echo -e "${CYAN}        Channel : https://t.me/infomindao${NC}"
     echo -e "======================================================${NC}"
 }
 
@@ -522,7 +532,7 @@ backup_all_burner_wallets() {
 
 while true; do
     show_header
-    echo -e "${CYAN}    MENU OPERASI MAWARI GUARDIAN NODE ${NC}"
+    echo -e "${CYAN}        MENU OPERASI MAWARI GUARDIAN NODE ${NC}"
     echo -e "${BLUE}======================================================"
     echo -e "1. ${GREEN}Cek & Instalasi Docker & Tools (Wajib)${NC}"
     echo -e "2. ${YELLOW}Luncurkan Node Baru${NC}"
