@@ -1,4 +1,5 @@
 # Mawari Guardian Node Launcher (Docker)
+**Created by [Kalawastra](https://t.me/Kalawastra)**
 
 Script ini memudahkan Anda untuk menjalankan, mengelola, dan melakukan backup Guardian Node Mawari menggunakan Docker.
 
